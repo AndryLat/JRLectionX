@@ -3,6 +3,10 @@ package dev.andrylat.calc;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class Calculator {
+
+    public static void main(String[] args) {
+        System.out.println("Supoer");
+    }
     public Integer sum(Integer a, Integer b) {
         a = a;
         boolean q = false;
