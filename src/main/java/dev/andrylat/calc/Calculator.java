@@ -15,8 +15,8 @@ public class Calculator {
             System.out.println("something!");
         }
 
-        if (a != null) {
-            throw new IllegalArgumentException("a can't be null");
+        if (a == null) {
+            throw new IllegalArgumentException("a can't be nul");
         }
 
         if (b == null) {
