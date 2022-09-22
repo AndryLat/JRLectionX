@@ -22,7 +22,6 @@ class CalculatorTest {
         Integer actual = calculator.sum(-3, -7);
 
         assertEquals(expected, actual);
-        assertTrue(false);
     }
 
     @Test
